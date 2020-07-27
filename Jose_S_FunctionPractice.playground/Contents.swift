@@ -1,9 +1,9 @@
-import Cocoa
+ import Cocoa
 
 func main(){
     let jacket = 199.00
     // call the clearance function passing it the jacket price, storing the result in a variable - the jacket should be 50% off - print the clearance price
-    let clearancePrice = clearance(itemPrice: jacket)
+    let clearancePrice = clearance(i temPrice: jacket)
     print("Clearance Price: \(clearancePrice)")
     // call the thirty function, pass it the clearance price
     // print the new price with the additional discount
